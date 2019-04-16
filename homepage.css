@@ -4,3 +4,11 @@ html{
 body {
 	height: 100%;
 }
+#background-image {
+	background-image: url("homepagebackground.jpg"); /* load this image */
+	background-color: white; 	/* load this if the image is not present */
+	height: 100%; 	/* makes the image cover the entire page */
+	background-position: center; 	/* center the image */
+	background-repeat: no-repeat; 	/* dont repeat the image if it is smaller than the screen */
+	background-size: cover; 	/* make sure the image covers the page */
+}
