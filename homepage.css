@@ -3,6 +3,7 @@ html{
 }
 body {
 	height: 100%;
+	margin: 0;
 }
 #background-image {
 	background-image: url("homepagebackground.jpg"); /* load this image */
