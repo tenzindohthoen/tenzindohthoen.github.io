@@ -62,11 +62,5 @@ h1{
 video{
 	float: right; /* put it on the right hand side of the screen */
 	clear: right; /* put it below the list */
-	/* dynamically center the vid */
-	top: 0;
-	bottom: 0;
-	right: 0;
-	left: 0;
-	margin-right: auto;
-	margin-left: auto;
+	padding: 0px 170px;
 }
