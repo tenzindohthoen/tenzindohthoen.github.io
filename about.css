@@ -1,5 +1,5 @@
 html{
-	height: 100%; /* stretch the background image to the entire page*/
+	height: 100%;
 }
 body {
 	font-family: Verdana, Arial Black; /* first display using verdana, if its not there display arial black */
@@ -8,41 +8,42 @@ body {
 	height: 100%; 	/* to make the image cover the entire page */
 	margin: 0; /* no margin so the image starts at the very edge */
 }
-h1{
-	margin: 0; /* no white space at the top */
-	text-align: center; /* center align the text */
-	color: red; /* red text color */
-}
 /*==================================BACKGROUND=====================================================================*/
 #background-image {
-	background-image: url("homepagebackground.jpeg"); /* load this image */
+	background-image: url("aboutimg.jpg"); /* load this image */
 	background-color: white; 	/* load this if the image is not present */
 	height: 100%; 	/* makes the image cover the entire page */
-	background-position: center; 	/* center the image */
+	background-position: left; 	/* center the image */
 	background-repeat: no-repeat; 	/* dont repeat the image if it is smaller than the screen */
-	background-size: cover; 	/* make sure the image covers the page */
+	background-size: contain; 	/* make sure the image covers the page */
 }
-/*=================================NAVBAR===================================================================*/
-#homepagenavbar{
-	height: 50px; /* how tall the header bar would be */
+/*==================================NAVBAR=================================================================*/
+#navbar{
+	height: 30px;
+	width: 639px;
+	background-color: black;
+	float: right;
+	display: inline;
+	border-radius: 1px;
 	font-weight: bold; /*bold letters */
 }
-#homepagenavbar ul {
+#navbar ul {
 	list-style-type: none; /* remove the bullet points */
 	margin: 0px; /*no margin so the buttons align with the h1 */
 	padding: 0px; /* no padding so the buttons align with the h1 */
 	text-align: center; /* center the buttons */
 }
-#homepagenavbar ul li {
+#navbar ul li {
 	display: inline; /* display the buttons side by side */
+	line-height: 28px; /* center the text within the box */
 }
-#homepagenavbar ul li a{
+#navbar ul li a{
 	text-decoration: none; /* remove the default underlining */
 	color: red; /* white text color */
-	padding: .1em 1em; /* padding the separate the buttons also for highlighting on hover */
+	padding: .2em 1em; /* padding the separate the buttons also for highlighting on hover */
 	font-family: arial; /* font for the buttons */
 }
-#homepagenavbar ul li a:hover{
+#navbar ul li a:hover{
 	color: black; /* change font color to black on hover */
 	background-color: white; /* change background color to white on hover */
 }
