@@ -4,7 +4,7 @@ html{
 body {
 	font-family: Verdana, Arial Black; /* first display using verdana, if its not there display arial black */
 	font-weight: normal; 	/* no font bolding */
-	font-size: 20px;
+	font-size: 20px; /* font sizefor the entire page */
 	height: 100%; 	/* to make the image cover the entire page */
 	margin: 0; /* no margin so the image starts at the very edge */
 }
@@ -21,4 +21,28 @@ h1{
 	background-position: center; 	/* center the image */
 	background-repeat: no-repeat; 	/* dont repeat the image if it is smaller than the screen */
 	background-size: cover; 	/* make sure the image covers the page */
+}
+/*=================================NAVBAR===================================================================*/
+#homepagenavbar{
+	height: 50px; /* how tall the header bar would be */
+	font-weight: bold; /*bold letters */
+}
+#homepagenavbar ul {
+	list-style-type: none; /* remove the bullet points */
+	margin: 0px; /*no margin so the buttons align with the h1 */
+	padding: 0px; /* no padding so the buttons align with the h1 */
+	text-align: center; /* center the buttons */
+}
+#homepagenavbar ul li {
+	display: inline; /* display the buttons side by side */
+}
+#homepagenavbar ul li a{
+	text-decoration: none; /* remove the default underlining */
+	color: red; /* white text color */
+	padding: .1em 1em; /* padding the separate the buttons also for highlighting on hover */
+	font-family: arial; /* font for the buttons */
+}
+#homepagenavbar ul li a:hover{
+	color: black; /* change font color to black on hover */
+	background-color: white; /* change background color to white on hover */
 }
