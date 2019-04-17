@@ -51,7 +51,7 @@ h1{
 #navbar ul li a{
 	text-decoration: none; /* remove the default underlining */
 	color: red; /* white text color */
-	padding: .2em 1em; /* padding the separate the buttons also for highlighting on hover */
+	padding: .2em 1.7em; /* padding the separate the buttons also for highlighting on hover */
 	font-family: arial; /* font for the buttons */
 }
 #navbar ul li a:hover{
@@ -62,5 +62,9 @@ h1{
 video{
 	float: right; /* put it on the right hand side of the screen */
 	clear: right; /* put it below the list */
-	padding: 0px 150px; /* pad it to the center */
+	/* dynamically center the vid */
+	right: 0;
+	left: 0;
+	margin-right: auto;
+	margin-left: auto;
 }
