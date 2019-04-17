@@ -2,11 +2,20 @@ html{
 	height: 100%;
 }
 body {
-	height: 100%;
-	margin: 0;
+	font-family: Verdana, Arial Black; /* first display using verdana, if its not there display arial black */
+	font-weight: normal; 	/* no font bolding */
+	font-size: 20px;
+	height: 100%; 	/* to make the image cover the entire page */
+	margin: 0; /* no margin so the image starts at the very edge */
 }
+h1{
+	margin: 0; /* no white space at the top */
+	text-align: center; /* center align the text */
+	color: red; /* red text color */
+}
+/*==================================BACKGROUND=====================================================================*/
 #background-image {
-	background-image: url("homepagebackground.jpg"); /* load this image */
+	background-image: url("homepagebackground.jpeg"); /* load this image */
 	background-color: white; 	/* load this if the image is not present */
 	height: 100%; 	/* makes the image cover the entire page */
 	background-position: center; 	/* center the image */
