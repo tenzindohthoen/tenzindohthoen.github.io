@@ -1,5 +1,6 @@
 html{
 	height: 100%; /* make the image use the entire height */
+	background-color: black; /* the entire background is black in color */
 }
 body {
 	font-family: Verdana, Arial Black; /* first display using verdana, if its not there display arial black */
@@ -35,7 +36,6 @@ h1{
 	background-color: black; /* black background */
 	border-radius: 1px; /* curve the edges by 1 px*/
 	font-weight: bold; /*bold letters */
-	float: right;
 	display: block;
 }
 #navbar ul {
@@ -59,8 +59,16 @@ h1{
 	background-color: white; /* change background color to white on hover */
 }
 /*=======================================VID==================================================================*/
-video{
+#motorboat{
 	float: right; /* put it on the right hand side of the screen */
 	clear: right; /* put it below the list */
 	padding: 0px 170px;
+}
+/*====================================IMAGE===================================================================*/
+#thaiboob{
+	height: 98.3%; 	/* makes the image cover the entire page */
+	background-position: right; 	/* center the image */
+	background-repeat: no-repeat; 	/* dont repeat the image if it is smaller than the screen */
+	background-size: contain; /* make sure the image maintains its size aspect */
+	padding-top: 2.9em;
 }
