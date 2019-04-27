@@ -36,7 +36,7 @@ h1{
 	background-color: black; /* black background */
 	border-radius: 1px; /* curve the edges by 1 px*/
 	font-weight: bold; /*bold letters */
-	display: block;
+	display: block; /* display as a block element  */
 }
 #navbar ul {
 	list-style-type: none; /* remove the bullet points */
@@ -62,13 +62,47 @@ h1{
 #motorboat{
 	float: right; /* put it on the right hand side of the screen */
 	clear: right; /* put it below the list */
-	padding: 0px 170px;
+	padding: 0px 170px; /* add 170px of left and right padding */
 }
-/*====================================IMAGE===================================================================*/
+/*====================================Gif===================================================================*/
 #thaiboob{
-	height: 98.3%; 	/* makes the image cover the entire page */
-	background-position: right; 	/* center the image */
-	background-repeat: no-repeat; 	/* dont repeat the image if it is smaller than the screen */
-	background-size: contain; /* make sure the image maintains its size aspect */
-	padding-top: 2.9em;
+	height: 100%; 	/* makes the image cover the entire page */
+	padding-top: 2.9em; /* add some padding on the top so that the img doesnt overlap */
+	width: 50%; /* half of the page*/
+}
+#pokies{
+	height: 100%; /* make the image cover 100% of the page */
+	float: right;	/* on the right half */
+	padding-top: 2.9em; /* added padding to the top to prevent overlapping and some space */
+	width: 50%; /* occupy the right half of the screen */
+}
+#titbounce{
+	height: 100%; 	/* makes the image cover the entire page */
+	width: 50%; /* half of the page*/
+	margin: 0px;
+}
+#tittylicking{
+	height: 100%; /* make the image cover 100% of the page */
+	float: right;	/* on the right half */
+	width: 50%; /* occupy the right half of the screen */
+}
+#alice-cleavage{
+	height: 150%; 	/* makes the image cover the entire page */
+	width: 50%; /* half of the page*/
+	margin: 0px;
+}
+#alice-cleavage2{
+	height: 150%; /* make the image cover 100% of the page */
+	float: right;	/* on the right half */
+	width: 50%; /* occupy the right half of the screen */
+}
+#alice-cleavage3{
+	height: 150%; 	/* makes the image cover the entire page */
+	width: 50%; /* half of the page*/
+	margin: 0px;
+}
+#fingerbite{
+	height: 150%; /* make the image cover 100% of the page */
+	float: right;	/* on the right half */
+	width: 50%; /* occupy the right half of the screen */
 }

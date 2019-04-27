@@ -1,5 +1,6 @@
 html{
 	height: 100%; /* stretch the background image to the entire page*/
+	background-color: black; /* black color till the page loads */
 }
 body {
 	font-family: Verdana, Arial Black; /* first display using verdana, if its not there display arial black */
