@@ -1,0 +1,37 @@
+html{
+	background-color: black; /* page background is black in color */
+}
+body {
+	font-family: Verdana, Arial Black; /* first display using verdana, if its not there display arial black */
+	font-weight: normal; 	/* no font bolding */
+	font-size: 20px; /* font sizefor the entire page */
+	margin: 0; /* no margin, start at the very top */
+}
+/*===========================================NAVBAR============================================================*/
+#navbar{
+	height: 30px; /* the nav bar will be 30px tall */
+	background-color: black; /* black background */
+	border-radius: 1px; /* curve the edges by 1 px*/
+	font-weight: bold; /*bold letters */
+	display: block; /* display as a block element  */
+}
+#navbar ul {
+	list-style-type: none; /* remove the bullet points */
+	margin: 0px; /*no margin so the buttons align with the h1 */
+	padding: 0px; /* no padding so the buttons align with the h1 */
+	text-align: center; /* center the buttons */
+}
+#navbar ul li {
+	display: inline; /* display the buttons side by side */
+	line-height: 28px; /* center the text within the box */
+}
+#navbar ul li a{
+	text-decoration: none; /* remove the default underlining */
+	color: red; /* white text color */
+	padding: .2em 1.7em; /* padding the separate the buttons also for highlighting on hover */
+	font-family: arial; /* font for the buttons */
+}
+#navbar ul li a:hover{
+	color: black; /* change font color to black on hover */
+	background-color: white; /* change background color to white on hover */
+}
