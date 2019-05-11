@@ -66,7 +66,7 @@ h1{
 }
 /*====================================Gif===================================================================*/
 #thaiboob{
-	height: 100%; 	/* makes the image cover the entire page */
+	height: auto; 	/* makes the image cover the entire page */
 	padding-top: 2.9em; /* add some padding on the top so that the img doesnt overlap */
 	width: 50%; /* half of the page*/
 }
@@ -77,32 +77,100 @@ h1{
 	width: 50%; /* occupy the right half of the screen */
 }
 #titbounce{
-	height: 100%; 	/* makes the image cover the entire page */
+	height: auto; 	/* makes the image cover the entire page */
 	width: 50%; /* half of the page*/
-	margin: 0px;
+	margin: 0px; /* no space between other pictures */
 }
 #tittylicking{
-	height: 100%; /* make the image cover 100% of the page */
+	height: auto; /* make the image cover 100% of the page */
 	float: right;	/* on the right half */
 	width: 50%; /* occupy the right half of the screen */
 }
 #alice-cleavage{
-	height: 150%; 	/* makes the image cover the entire page */
+	height: auto; 	/* makes the image cover the entire page */
 	width: 50%; /* half of the page*/
-	margin: 0px;
+	margin: 0px; /* no space between other pictures */
 }
 #alice-cleavage2{
-	height: 150%; /* make the image cover 100% of the page */
+	height: auto; /* make the image cover 100% of the page */
 	float: right;	/* on the right half */
 	width: 50%; /* occupy the right half of the screen */
 }
 #alice-cleavage3{
-	height: 150%; 	/* makes the image cover the entire page */
+	height: auto; 	/* makes the image cover the entire page */
 	width: 50%; /* half of the page*/
-	margin: 0px;
+	margin: 0px; /* no margin between pictures */
 }
 #fingerbite{
-	height: 150%; /* make the image cover 100% of the page */
+	height: auto; /* make the image cover 100% of the page */
 	float: right;	/* on the right half */
 	width: 50%; /* occupy the right half of the screen */
+}
+/*=========================================MEDIAQUERIES==============================================*/
+@media (max-width: 600px) {
+
+h1{
+	margin: 50px; /* 50px margin to move away from  */
+	text-align: center; /* center align */
+	color: red; /* red color font*/
+	clear: right; /* clear right so the h1 can stack below the nav bar*/
+	padding-right: 0px; /* move away from the right edge of the screen */
+}
+#aboutlist{
+	color: red; /* red color font */
+	padding-right: 0px; /* padding away from the right edge */
+}
+#left-image {
+	background-image: url("aboutimg.jpg"); /* load this image */
+	background-color: black; 	/* cover the right half of the screen black */
+	height: 100%; 	/* makes the image cover the entire page */
+	/*background-position: left; 	/* center the image */
+	/*background-repeat: no-repeat; 	/* dont repeat the image if it is smaller than the screen */
+	/*background-size: contain; 	/* make sure the image isnt stretched */
+}
+#motorboat{
+	padding-right: 0px;
+	padding-top: 300px;
+	margin: 0px;
+	
+}
+#thaiboob{
+	height: 100%; 	/* makes the image cover the entire page */
+	width: 100%; /* half of the page*/
+}
+#pokies{
+	height: auto; /* make the image cover 100% of the page */
+	float: right;	/* on the right half */
+	width: 100%; /* occupy the right half of the screen */
+}
+#titbounce{
+	height: auto; 	/* makes the image cover the entire page */
+	width: 100%; /* half of the page*/
+	margin: 0px; /* no space between other pictures */
+}
+#tittylicking{
+	height: auto; /* make the image cover 100% of the page */
+	float: right;	/* on the right half */
+	width: 100%; /* occupy the right half of the screen */
+}
+#alice-cleavage{
+	height: auto; 	/* makes the image cover the entire page */
+	width: 100%; /* half of the page*/
+	margin: 0px; /* no space between other pictures */
+}
+#alice-cleavage2{
+	height: auto; /* make the image cover 100% of the page */
+	float: right;	/* on the right half */
+	width: 100%; /* occupy the right half of the screen */
+}
+#alice-cleavage3{
+	height: auto; 	/* makes the image cover the entire page */
+	width: 100%; /* half of the page*/
+	margin: 0px; /* no margin between pictures */
+}
+#fingerbite{
+	height: auto; /* make the image cover 100% of the page */
+	float: right;	/* on the right half */
+	width: 100%; /* occupy the right half of the screen */
+}
 }
