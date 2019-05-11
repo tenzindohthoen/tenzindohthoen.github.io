@@ -115,7 +115,7 @@ h1{
 	color: red; /* red color font*/
 	clear: right; /* clear right so the h1 can stack below the nav bar*/
 	padding-right: 0px; /* move away from the right edge of the screen */
-	padding-top: 550px;
+	padding-top: 500px;
 }
 #aboutlist{
 	color: red; /* red color font */
@@ -128,12 +128,12 @@ h1{
 	background-size: contain;
 }
 #motorboat{
-	padding-right: 0px;
+	padding-right: 20px;
 	padding-top: 0px;
 	margin-left: 50px;
 }
 #thaiboob{
-	height: 100%; 	/* makes the image cover the entire page */
+	height: auto; 	/* makes the image cover the entire page */
 	width: 100%; /* half of the page*/
 }
 #pokies{
