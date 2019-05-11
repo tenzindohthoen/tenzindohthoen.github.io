@@ -110,11 +110,12 @@ h1{
 @media (max-width: 600px) {
 
 h1{
-	margin: 50px; /* 50px margin to move away from  */
+	margin: 0px; /* 50px margin to move away from  */
 	text-align: center; /* center align */
 	color: red; /* red color font*/
 	clear: right; /* clear right so the h1 can stack below the nav bar*/
 	padding-right: 0px; /* move away from the right edge of the screen */
+	padding-top: 550px;
 }
 #aboutlist{
 	color: red; /* red color font */
@@ -124,15 +125,12 @@ h1{
 	background-image: url("aboutimg.jpg"); /* load this image */
 	background-color: black; 	/* cover the right half of the screen black */
 	height: 100%; 	/* makes the image cover the entire page */
-	/*background-position: left; 	/* center the image */
-	/*background-repeat: no-repeat; 	/* dont repeat the image if it is smaller than the screen */
-	/*background-size: contain; 	/* make sure the image isnt stretched */
+	background-size: contain;
 }
 #motorboat{
 	padding-right: 0px;
-	padding-top: 300px;
+	padding-top: 0px;
 	margin-left: 50px;
-	
 }
 #thaiboob{
 	height: 100%; 	/* makes the image cover the entire page */
