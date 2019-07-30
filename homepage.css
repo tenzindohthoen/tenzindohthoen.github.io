@@ -5,45 +5,98 @@ html{
 body {
 	font-family: Verdana, Arial Black; /* first display using verdana, if its not there display arial black */
 	font-weight: normal; 	/* no font bolding */
-	font-size: 20px; /* font sizefor the entire page */
 	height: 100%; 	/* to make the image cover the entire page */
 	margin: 0; /* no margin so the image starts at the very edge */
 }
+/***********************************H1***************************************************************/
 h1{
 	margin: 0; /* no white space at the top */
+	font-weight: bold; /*bold text*/
 	text-align: center; /* center align the text */
 	color: red; /* red text color */
+	background-color: black; /* black background around the h1 for visibility */
+	opacity: 0.8; /* make it a bit see through*/
+}
+
+@media (max-width: 375px) {
+	h1 {
+		background-color: black; /* black background color for the div containing h1 */
+		opacity: 0.8; /* make it a bit see through */
+		padding: 10px; /* add some padding to top and bottom */
+	}
+}
+@media (max-width: 500px) {
+	h1 {
+		padding: 10px; /* add some padding to top and bottom */
+	}
+}
+@media (max-width: 575px) {
+	h1{
+		font-size: 6vw; /* make the h1 font smaller at lower screen width */
+	}
+}
+@media (max-width: 768px) { /*for i pad*/
+	h1{
+		padding-top: 15px; /* add more padding at this screen width to have some room from the top of the screen */
+	}
+}
+@media (max-width: 1024px) { /* for i pad pro */
+	h1{
+		padding-top: 15px; /* add more padding to move it down from the top of the screen */
+	}
 }
 /*==================================BACKGROUND=====================================================================*/
 #background-image {
-	background-image: url("homepagebackground.jpeg"); /* load this image */
-	background-color: white; 	/* load this if the image is not present */
-	height: 100%; 	/* makes the image cover the entire page */
-	background-position: center; 	/* center the image */
-	background-repeat: no-repeat; 	/* dont repeat the image if it is smaller than the screen */
+	background: url("homepagebackground.jpeg") no-repeat 50% 60%; /* load this image */
+	background-color: black; 	/* load this if the image is not present */
+	height: 100%; 	/* makes the image cover the entire page */	
 	background-size: cover; 	/* make sure the image covers the page */
 }
+@media (max-width: 500px) {
+	#background-image {
+		background: url("homepagealtbackground.jpeg") no-repeat 50% 0%; /* change the image displayed at 500px width */
+		background-size: cover; /* cover the full page */
+	}
+}
+@media (max-width: 375px) {
+	#background-image {
+		background: url("homepagealtbackground.jpeg") no-repeat 70% 0%; /* change the image displayed at 500px width */
+		background-size: cover; /* cover the full page */
+	}
+}
+@media (min-width: 768px) { /*for i pad*/
+	#background-image {
+		background: url("homepagebackground.jpeg") no-repeat 35% 60%; /*load this image*/
+		background-size: cover; /*cover the entirepage*/
+	}
+}
+@media (min-width: 1024px) { /*for i pad pro*/
+	#background-image {
+		background: url("homepagebackground.jpeg") no-repeat 35% 60%; /*load this image*/
+		background-size: cover; /*cover the entirepage*/
+	}
+}
 /*=================================NAVBAR===================================================================*/
-#homepagenavbar{
-	height: 50px; /* how tall the header bar would be */
-	font-weight: bold; /*bold letters */
+/* #homepagenavbar{
+	height: 50px; how tall the header bar would be
+	font-weight: bold; bold letters
 }
 #homepagenavbar ul {
-	list-style-type: none; /* remove the bullet points */
-	margin: 0px; /*no margin so the buttons align with the h1 */
-	padding: 0px; /* no padding so the buttons align with the h1 */
-	text-align: center; /* center the buttons */
+	list-style-type: none; remove the bullet points
+	margin: 0px; no margin so the buttons align with the h1
+	padding: 0px; no padding so the buttons align with the h1
+	text-align: center; center the buttons
 }
 #homepagenavbar ul li {
-	display: inline; /* display the buttons side by side */
+	display: inline; display the buttons side by side
 }
 #homepagenavbar ul li a{
-	text-decoration: none; /* remove the default underlining */
-	color: red; /* white text color */
-	padding: .1em 1em; /* padding the separate the buttons also for highlighting on hover */
-	font-family: arial; /* font for the buttons */
+	text-decoration: none; remove the default underlining
+	color: red; white text color
+	padding: .1em 1em; padding the separate the buttons also for highlighting on hover
+	font-family: arial; font for the buttons
 }
 #homepagenavbar ul li a:hover{
-	color: black; /* change font color to black on hover */
-	background-color: white; /* change background color to white on hover */
-}
+	color: black; change font color to black on hover
+	background-color: white; change background color to white on hover
+} */
